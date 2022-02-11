@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Feb 10 21:46:56 2022
+Created on Thu Feb 10 23:46:56 2022
 @author: PP
 
 Nie wiem jeszcze, jak zadanie wykonac w Javie, z checia sie naucze.
