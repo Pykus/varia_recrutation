@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GeoPIP</title>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin=""></script>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="http://localhost:8000/wyszukiwarka/"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>GeoPIP</a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="http://localhost:8000/wyszukiwarka/"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>Wyszukaj wg adresu</a></li>
+          <li class="active"><a href="http://localhost:8000/wyszukiwarka/navi/">Wyszukaj wg nazwy z navigatora</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">...</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<br><br><br>
+<table><tr><td><!-- TODO tutaj zrob bootstrapowy layout -->
+
+    <div class="pre-scrollable" id="firmy">
+
+    <ul>
+    <b>Lista znalezionych firm: (uwaga: jeśli poniżej znajduje się lista firm, a obok jest mapka, to mapka dotyczy pierwszej pozycji z listy)</b>
+        {% for firma in znalezione_firmy %}
+    <!--{{ wynik }}-->
+
+    <li><a href="http://localhost:8000/wyszukiwarka/link/{{ firma.8 }}/{{ firma.10 }}/{{ firma.11 }}">{{ firma.3 }}; {{ firma.8 }} ;{{ firma.10 }} ;{{ firma.11 }} ;{{ firma.12 }} ;{{ firma.13 }} ;{{ firma.9 }}</a></li>
+        {% endfor %}
+</ul>
+{% if wyniki %}Znajduje się w obszarze sekcji: <b>{{ ktorasekcja }}{% endif %}</b>
+    </div>
+    <form action="." method="post">
+        {% csrf_token %}
+        Nazwa pracodawcy:{{ form_navi.nazwapracodawcy }}
+
+        <!-- /<input type="submit" value="Wyszukaj" /> button jest po to zeby bylo ladniej-->
+    </form>
+
+    <div id="wyniki" class="pre-scrollable">
+    <ul>
+    {% for wynik in wyniki %}
+    <!--{{ wynik }}-->
+
+    <li><a href="http://localhost:8000/wyszukiwarka/link/{{ wynik.10 }}/{% if wynik.11 == None %}/{% else %}{{ wynik.11 }}/{% endif %}{{ wynik.12 }}">{{ wynik.10 }}, {{ wynik.11 }}, {{ wynik.12 }}, {{ wynik.13 }}, {{ wynik.9 }}</a></li>
+    {% endfor %}
+</ul>
+{% if wyniki %}Znajduje się w obszarze sekcji: <b>{{ ktorasekcja }}{% endif %}</b>
+    </div>
+
+</td><td>
+<button class="btn btn-active" onclick="goBack()">wróć (poprzednia strona)</button>
+
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+<!-- Wyniki wyszukiwania dla{{ form.miejscowosc.value }} -->
+<div id="mapid" style="width: 600px; height: 400px;"></div>
+
+    <script>
+
+	var mymap = L.map('mapid').setView([{{ wspolrzedne.Y }},{{ wspolrzedne.X }}], 13);
+//http://c.tile.openstreetmap.org/{z}/{x}/{y}.png
+//http://{s}.tile.osm.org/{z}/{x}/{y}.png
+////uwaga nalicencje: https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw
+	L.tileLayer('http://a.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		maxZoom: 18,
+		attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+			'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a> '
+	}).addTo(mymap);
+
+	L.marker([{{ wspolrzedne.Y }},{{ wspolrzedne.X }}]).addTo(mymap)
+		.bindPopup("{% if wyniki|length == 1 %}{{ wyniki.0.10 }}, {{ wyniki.0.11 }}, {{ wyniki.0.12 }}{% else %} "Nie odnaleziono jednoznacznego adresu {% endif %}").openPopup();
+
+	L.circle([ {{ wspolrzedne.Y }},{{ wspolrzedne.X }}], 200, {
+		color: 'green',
+		fillColor: 'green',
+		fillOpacity: 0.5
+	}).addTo(mymap).bindPopup("to jest kolko");
+
+	L.polygon(
+		{{ obszar_do_wyswietlenia }}
+	).addTo(mymap).bindPopup("{{ ktorasekcja }}");
+
+
+	var popup = L.popup();
+
+	function onMapClick(e) {
+		popup
+			.setLatLng(e.latlng)
+			.setContent("kliknales na wspolrzednych" + e.latlng.toString())
+			.openOn(mymap);
+	}
+	mymap.on('click', onMapClick);
+
+</script>
+</td></tr></table>
+</body>
+</html>

@@ -1,0 +1,1347 @@
+2017-08-30 10:18:29,296 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/%C5%9Awi%C4%99ty%20Marcin/46/ HTTP/1.1" 200 90084841
+2017-08-30 10:18:40,234 [INFO] django.server: "GET /wyszukiwarka/link/Pal%C4%99dzie/Radosna/12 HTTP/1.1" 200 249181
+2017-08-30 10:24:58,159 [INFO] django.server: "POST /wyszukiwarka/link/Pal%C4%99dzie/Radosna/ HTTP/1.1" 200 566915
+2017-08-30 10:25:07,707 [INFO] django.server: "POST /wyszukiwarka/link/Pal%C4%99dzie/Radosna/ HTTP/1.1" 200 141714
+2017-08-30 10:25:20,334 [INFO] django.server: "POST /wyszukiwarka/link/Pal%C4%99dzie/Radosna/ HTTP/1.1" 200 14998
+2017-08-30 10:25:25,412 [INFO] django.server: "GET /wyszukiwarka/link/Czajk%C3%B3w//147 HTTP/1.1" 200 566882
+2017-08-30 10:30:46,699 [INFO] django.server: "POST /wyszukiwarka/link/Czajk%C3%B3w// HTTP/1.1" 200 7330
+2017-08-30 10:30:52,993 [INFO] django.server: "GET /wyszukiwarka/link/Go%C5%82a%C5%84cz/Osada/6 HTTP/1.1" 200 598688
+2017-08-30 10:34:00,298 [INFO] django.server: "POST /wyszukiwarka/link/Go%C5%82a%C5%84cz/Osada/ HTTP/1.1" 200 4917
+2017-08-30 10:34:07,626 [INFO] django.server: "POST /wyszukiwarka/link/Go%C5%82a%C5%84cz/Osada/ HTTP/1.1" 200 4917
+2017-08-30 10:34:12,383 [INFO] django.server: "POST /wyszukiwarka/link/Go%C5%82a%C5%84cz/Osada/ HTTP/1.1" 200 7330
+2017-08-30 10:34:19,213 [INFO] django.server: "POST /wyszukiwarka/link/Go%C5%82a%C5%84cz/Osada/ HTTP/1.1" 200 4917
+2017-08-30 10:34:24,318 [INFO] django.server: "POST /wyszukiwarka/link/Go%C5%82a%C5%84cz/Osada/ HTTP/1.1" 200 7330
+2017-08-30 12:54:20,179 [INFO] django.server: "POST /wyszukiwarka/link/Go%C5%82a%C5%84cz/Osada/ HTTP/1.1" 200 378099
+2017-08-30 12:54:27,132 [INFO] django.server: "POST /wyszukiwarka/link/Go%C5%82a%C5%84cz/Osada/ HTTP/1.1" 200 4912
+2017-08-30 12:55:33,293 [INFO] django.server: "POST /wyszukiwarka/link/Go%C5%82a%C5%84cz/Osada/ HTTP/1.1" 200 4918
+2017-08-30 12:57:23,860 [INFO] django.server: "POST /wyszukiwarka/link/Go%C5%82a%C5%84cz/Osada/ HTTP/1.1" 200 4922
+2017-08-30 12:57:31,123 [INFO] django.server: "POST /wyszukiwarka/link/Go%C5%82a%C5%84cz/Osada/ HTTP/1.1" 200 4922
+2017-08-30 12:57:35,561 [INFO] django.server: "POST /wyszukiwarka/link/Go%C5%82a%C5%84cz/Osada/ HTTP/1.1" 200 16271
+2017-08-30 12:57:46,465 [INFO] django.server: "POST /wyszukiwarka/link/Go%C5%82a%C5%84cz/Osada/ HTTP/1.1" 200 4911
+2017-08-30 12:57:50,880 [INFO] django.server: "POST /wyszukiwarka/link/Go%C5%82a%C5%84cz/Osada/ HTTP/1.1" 200 4911
+2017-08-30 13:43:38,603 [INFO] django.server: "POST /wyszukiwarka/link/Go%C5%82a%C5%84cz/Osada/ HTTP/1.1" 200 4922
+2017-08-30 13:43:43,429 [INFO] django.server: "POST /wyszukiwarka/link/Go%C5%82a%C5%84cz/Osada/ HTTP/1.1" 200 4922
+2017-08-30 13:43:46,504 [INFO] django.server: "POST /wyszukiwarka/link/Go%C5%82a%C5%84cz/Osada/ HTTP/1.1" 200 16280
+2017-08-30 13:46:44,812 [INFO] django.server: "POST /wyszukiwarka/link/Go%C5%82a%C5%84cz/Osada/ HTTP/1.1" 200 4922
+2017-08-30 13:47:48,961 [INFO] django.server: "POST /wyszukiwarka/link/Go%C5%82a%C5%84cz/Osada/ HTTP/1.1" 200 4922
+2017-08-30 13:48:23,810 [INFO] django.server: "POST /wyszukiwarka/link/Go%C5%82a%C5%84cz/Osada/ HTTP/1.1" 200 4922
+2017-08-30 13:48:37,010 [INFO] django.server: "POST /wyszukiwarka/link/Go%C5%82a%C5%84cz/Osada/ HTTP/1.1" 200 16282
+2017-08-30 13:52:39,320 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/Go³añcz/Osada/
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 38, in wyszukaj
+    zgeokodowane=geokoder.znajdz_adres(miejscowosc,ulica,numer,precyzja_wyszukiwania,'PRG_PunktAdresowy.sqlite')
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\geokoder.py", line 34, in znajdz_adres
+    poszukiwane['miejscowosc']=odpolonizuj(miejscowosc.lower())
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\geokoder.py", line 8, in odpolonizuj
+    result.append([letter if letter not in ["¿"] else "_" for letter in string])
+AttributeError: 'str' object has no attribute 'append'
+2017-08-30 13:52:39,379 [ERROR] django.server: "POST /wyszukiwarka/link/Go%C5%82a%C5%84cz/Osada/ HTTP/1.1" 500 81353
+2017-08-30 13:52:56,701 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/Go³añcz/Osada/
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 38, in wyszukaj
+    zgeokodowane=geokoder.znajdz_adres(miejscowosc,ulica,numer,precyzja_wyszukiwania,'PRG_PunktAdresowy.sqlite')
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\geokoder.py", line 34, in znajdz_adres
+    poszukiwane['miejscowosc']=odpolonizuj(miejscowosc.lower())
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\geokoder.py", line 8, in odpolonizuj
+    result+=[letter if letter not in ["¿"] else "_" for letter in string]
+TypeError: must be str, not list
+2017-08-30 13:52:56,756 [ERROR] django.server: "POST /wyszukiwarka/link/Go%C5%82a%C5%84cz/Osada/ HTTP/1.1" 500 81175
+2017-08-30 14:18:44,031 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/Go³añcz/Osada/
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 38, in wyszukaj
+    zgeokodowane=geokoder.znajdz_adres(miejscowosc,ulica,numer,precyzja_wyszukiwania,'PRG_PunktAdresowy.sqlite')
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\geokoder.py", line 36, in znajdz_adres
+    poszukiwane['miejscowosc']=odpolonizuj(miejscowosc.lower())
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\geokoder.py", line 10, in odpolonizuj
+    result+=newletter
+TypeError: must be str, not list
+2017-08-30 14:18:44,095 [ERROR] django.server: "POST /wyszukiwarka/link/Go%C5%82a%C5%84cz/Osada/ HTTP/1.1" 500 81332
+2017-08-30 14:19:30,506 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/Go³añcz/Osada/
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 38, in wyszukaj
+    zgeokodowane=geokoder.znajdz_adres(miejscowosc,ulica,numer,precyzja_wyszukiwania,'PRG_PunktAdresowy.sqlite')
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\geokoder.py", line 34, in znajdz_adres
+    poszukiwane['miejscowosc']=odpolonizuj(miejscowosc.lower())
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\geokoder.py", line 8, in odpolonizuj
+    result=[letter if letter not in ["¿"] else "_" for letter in string].join("")
+AttributeError: 'list' object has no attribute 'join'
+2017-08-30 14:19:30,570 [ERROR] django.server: "POST /wyszukiwarka/link/Go%C5%82a%C5%84cz/Osada/ HTTP/1.1" 500 81374
+2017-08-30 14:19:45,730 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/Go³añcz/Osada/
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 38, in wyszukaj
+    zgeokodowane=geokoder.znajdz_adres(miejscowosc,ulica,numer,precyzja_wyszukiwania,'PRG_PunktAdresowy.sqlite')
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\geokoder.py", line 34, in znajdz_adres
+    poszukiwane['miejscowosc']=odpolonizuj(miejscowosc.lower())
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\geokoder.py", line 8, in odpolonizuj
+    result=[letter if letter not in ["¿"] else "_" for letter in string].join("")
+AttributeError: 'list' object has no attribute 'join'
+2017-08-30 14:19:45,787 [ERROR] django.server: "POST /wyszukiwarka/link/Go%C5%82a%C5%84cz/Osada/ HTTP/1.1" 500 81374
+2017-08-30 14:20:46,135 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/Go³añcz/Osada/
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 38, in wyszukaj
+    zgeokodowane=geokoder.znajdz_adres(miejscowosc,ulica,numer,precyzja_wyszukiwania,'PRG_PunktAdresowy.sqlite')
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\geokoder.py", line 40, in znajdz_adres
+    zapytanie='select * from prg_punktadresowy where miejscowosc like \''+precyzjawyszukiwania(poszukiwane['miejscowosc'], precyzja_wyszukiwania['miejscowosc'])
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\geokoder.py", line 19, in precyzjawyszukiwania
+    wynik += poszukiwane
+TypeError: must be str, not list
+2017-08-30 14:20:46,191 [ERROR] django.server: "POST /wyszukiwarka/link/Go%C5%82a%C5%84cz/Osada/ HTTP/1.1" 500 81481
+2017-08-30 14:21:47,139 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/Go³añcz/Osada/
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 58, in wyszukaj
+    zgeokodowane = geokoder.znajdz_adres(miejscowosc, ulica, numer, precyzja_wyszukiwania)
+TypeError: znajdz_adres() missing 1 required positional argument: 'baza_adresowa'
+2017-08-30 14:21:47,207 [ERROR] django.server: "GET /wyszukiwarka/link/Go%C5%82a%C5%84cz/Osada/ HTTP/1.1" 500 70825
+2017-08-30 14:22:35,742 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/Go³añcz/Osada/
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 58, in wyszukaj
+    zgeokodowane = geokoder.znajdz_adres(miejscowosc, ulica, numer, precyzja_wyszukiwania,'PRG_PunktAdresowy.sqlite')
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\geokoder.py", line 41, in znajdz_adres
+    zapytanie='select * from prg_punktadresowy where miejscowosc like \''+precyzjawyszukiwania(poszukiwane['miejscowosc'], precyzja_wyszukiwania['miejscowosc'])
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\geokoder.py", line 20, in precyzjawyszukiwania
+    wynik += poszukiwane
+TypeError: must be str, not list
+2017-08-30 14:22:35,804 [ERROR] django.server: "GET /wyszukiwarka/link/Go%C5%82a%C5%84cz/Osada/ HTTP/1.1" 500 79932
+2017-08-30 14:23:13,223 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/Go³añcz/Osada/
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 58, in wyszukaj
+    zgeokodowane = geokoder.znajdz_adres(miejscowosc, ulica, numer, precyzja_wyszukiwania,'PRG_PunktAdresowy.sqlite')
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\geokoder.py", line 52, in znajdz_adres
+    cur.execute(zapytanie)
+sqlite3.OperationalError: near "g": syntax error
+2017-08-30 14:23:13,284 [ERROR] django.server: "GET /wyszukiwarka/link/Go%C5%82a%C5%84cz/Osada/ HTTP/1.1" 500 76411
+2017-08-30 14:23:39,320 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/Go³añcz/Osada/
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 58, in wyszukaj
+    zgeokodowane = geokoder.znajdz_adres(miejscowosc, ulica, numer, precyzja_wyszukiwania,'PRG_PunktAdresowy.sqlite')
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\geokoder.py", line 52, in znajdz_adres
+    cur.execute(zapytanie)
+sqlite3.OperationalError: near "g": syntax error
+2017-08-30 14:23:39,395 [ERROR] django.server: "GET /wyszukiwarka/link/Go%C5%82a%C5%84cz/Osada/ HTTP/1.1" 500 76399
+2017-08-30 14:24:30,704 [INFO] django.server: "GET /wyszukiwarka/ HTTP/1.1" 200 4853
+2017-08-30 14:24:39,653 [ERROR] django.request: Internal Server Error: /wyszukiwarka/
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 38, in wyszukaj
+    zgeokodowane=geokoder.znajdz_adres(miejscowosc,ulica,numer,precyzja_wyszukiwania,'PRG_PunktAdresowy.sqlite')
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\geokoder.py", line 52, in znajdz_adres
+    cur.execute(zapytanie)
+sqlite3.OperationalError: near "k": syntax error
+2017-08-30 14:24:39,702 [ERROR] django.server: "POST /wyszukiwarka/ HTTP/1.1" 500 77605
+2017-08-30 14:29:32,569 [ERROR] django.request: Internal Server Error: /wyszukiwarka/
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 38, in wyszukaj
+    zgeokodowane=geokoder.znajdz_adres(miejscowosc,ulica,numer,precyzja_wyszukiwania,'PRG_PunktAdresowy.sqlite')
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\geokoder.py", line 57, in znajdz_adres
+    cur.execute(zapytanie)
+sqlite3.OperationalError: near "k": syntax error
+2017-08-30 14:29:32,658 [ERROR] django.server: "POST /wyszukiwarka/ HTTP/1.1" 500 77605
+2017-08-30 14:32:26,550 [ERROR] django.request: Internal Server Error: /wyszukiwarka/
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 38, in wyszukaj
+    zgeokodowane=geokoder.znajdz_adres(miejscowosc,ulica,numer,precyzja_wyszukiwania,'PRG_PunktAdresowy.sqlite')
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\geokoder.py", line 35, in znajdz_adres
+    poszukiwane['miejscowosc']=zmienLiteryWgSlownika(miejscowosc.lower(),pl_znaki_sqlite)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\geokoder.py", line 7, in zmienLiteryWgSlownika
+    for i, j in slownik.iteritems():
+AttributeError: 'dict' object has no attribute 'iteritems'
+2017-08-30 14:32:26,609 [ERROR] django.server: "POST /wyszukiwarka/ HTTP/1.1" 500 81004
+2017-08-30 14:32:46,540 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 16282
+2017-08-30 14:32:56,211 [INFO] django.server: "GET /wyszukiwarka/link/Kalisz/%C5%BBwirki%20i%20Wigury/10 HTTP/1.1" 200 566895
+2017-08-30 14:52:27,310 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/Kalisz/¯wirki i Wigury/10
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 55, in wyszukaj
+    geometria.geokoduj
+AttributeError: module 'wyszukiwarka.geometria' has no attribute 'geokoduj'
+2017-08-30 14:52:27,364 [ERROR] django.server: "GET /wyszukiwarka/link/Kalisz/%C5%BBwirki%20i%20Wigury/10 HTTP/1.1" 500 71791
+2017-08-30 14:54:45,314 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/Kalisz/¯wirki i Wigury/10
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 48, in wyszukaj
+    'ktorasekcja':result['ktorasekcja'],
+TypeError: 'NoneType' object is not subscriptable
+2017-08-30 14:54:45,363 [ERROR] django.server: "GET /wyszukiwarka/link/Kalisz/%C5%BBwirki%20i%20Wigury/10 HTTP/1.1" 500 71734
+2017-08-30 14:58:01,590 [INFO] django.server: "GET /wyszukiwarka/link/Kalisz/%C5%BBwirki%20i%20Wigury/10 HTTP/1.1" 200 566154
+2017-08-30 14:58:06,671 [WARNING] django.request: Not Found: /wyszukiwarka/l
+2017-08-30 14:58:06,672 [WARNING] django.server: "GET /wyszukiwarka/l HTTP/1.1" 404 2426
+2017-08-30 14:58:09,859 [INFO] django.server: "GET /wyszukiwarka/ HTTP/1.1" 200 4853
+2017-08-30 14:58:17,758 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 22994
+2017-08-30 14:58:31,397 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 22994
+2017-08-30 15:00:28,729 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 23770
+2017-08-30 15:00:43,398 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 107989
+2017-08-30 15:00:47,546 [INFO] django.server: "GET /wyszukiwarka/link/Kalisz/%C5%BBwirki%20i%20Wigury/10 HTTP/1.1" 200 566895
+2017-08-30 15:01:42,363 [INFO] django.server: "GET /wyszukiwarka/link/Kalisz/%C5%BBwirki%20i%20Wigury/10 HTTP/1.1" 200 566895
+2017-08-30 15:09:32,927 [INFO] django.server: "GET /wyszukiwarka/link/Kalisz/%C5%BBwirki%20i%20Wigury/10 HTTP/1.1" 200 566895
+2017-08-30 15:12:51,540 [INFO] django.server: "GET /wyszukiwarka/link/Kalisz/%C5%BBwirki%20i%20Wigury/10 HTTP/1.1" 200 566895
+2017-09-03 10:34:59,627 [INFO] django.server: "GET /wyszukiwarka/ HTTP/1.1" 200 4853
+2017-09-03 10:35:00,278 [WARNING] django.request: Not Found: /favicon.ico
+2017-09-03 10:35:00,279 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 2076
+2017-09-03 10:35:08,618 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 13247
+2017-09-03 10:35:14,123 [INFO] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/Marceli%C5%84ska/46a HTTP/1.1" 200 29626
+2017-09-03 10:36:16,195 [INFO] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/Marceli%C5%84ska/46a HTTP/1.1" 200 29626
+2017-09-03 10:39:18,904 [INFO] django.server: "GET /wyszukiwarka/ HTTP/1.1" 200 4853
+2017-09-03 11:34:18,879 [INFO] django.server: "GET /wyszukiwarka/ HTTP/1.1" 200 4853
+2017-09-03 11:34:29,911 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 23771
+2017-09-03 11:34:29,918 [ERROR] django.server: "POST /wyszukiwarka/ HTTP/1.1" 500 59
+2017-09-03 11:34:33,179 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 23771
+2017-09-03 11:34:51,065 [INFO] django.server: "GET /wyszukiwarka/ HTTP/1.1" 200 4853
+2017-09-03 11:34:57,766 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 9593
+2017-09-03 11:35:00,573 [INFO] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/Floriana%20Marciniaka/23 HTTP/1.1" 200 340259
+2017-09-03 12:35:06,817 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Floriana%20Marciniaka/ HTTP/1.1" 200 7842
+2017-09-03 12:36:36,257 [INFO] django.server: "GET /wyszukiwarka/link/Rogaszyce//133c HTTP/1.1" 200 566863
+2017-09-03 13:22:47,398 [INFO] django.server: "POST /wyszukiwarka/link/Rogaszyce// HTTP/1.1" 200 552884
+2017-09-03 13:22:52,257 [INFO] django.server: "POST /wyszukiwarka/link/Rogaszyce// HTTP/1.1" 200 5003
+2017-09-03 13:23:23,198 [INFO] django.server: "POST /wyszukiwarka/link/Rogaszyce// HTTP/1.1" 200 4991
+2017-09-03 13:30:51,591 [INFO] django.server: "POST /wyszukiwarka/link/Rogaszyce// HTTP/1.1" 200 378081
+2017-09-03 13:31:12,880 [INFO] django.server: "POST /wyszukiwarka/link/Rogaszyce// HTTP/1.1" 200 5015
+2017-09-03 13:32:35,012 [INFO] django.server: "POST /wyszukiwarka/link/Rogaszyce// HTTP/1.1" 200 5184
+2017-09-03 13:33:22,456 [WARNING] django.request: Not Found: /wyszukiwarka///
+2017-09-03 13:33:22,457 [WARNING] django.server: "GET /wyszukiwarka/// HTTP/1.1" 404 2429
+2017-09-03 13:33:24,909 [INFO] django.server: "GET /wyszukiwarka HTTP/1.1" 301 0
+2017-09-03 13:33:25,273 [INFO] django.server: "GET /wyszukiwarka/ HTTP/1.1" 200 5024
+2017-09-03 13:33:35,120 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 23943
+2017-09-03 13:33:44,596 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 23943
+2017-09-03 13:33:55,165 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 23943
+2017-09-03 13:34:03,484 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 23943
+2017-09-03 13:34:31,902 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 23764
+2017-09-03 13:34:41,539 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 23772
+2017-09-03 13:34:54,239 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 23772
+2017-09-03 13:34:59,623 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 6539
+2017-09-03 13:35:04,548 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 340253
+2017-09-03 13:35:09,382 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 6591
+2017-09-03 13:35:19,948 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 340256
+2017-09-03 13:35:54,718 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 340410
+2017-09-03 13:36:00,682 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 6747
+2017-09-03 13:36:06,152 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 340409
+2017-09-03 13:36:10,066 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 6747
+2017-09-03 13:36:14,871 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 340409
+2017-09-03 13:36:21,365 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 6747
+2017-09-03 13:36:26,333 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 340409
+2017-09-03 13:38:35,004 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 340409
+2017-09-03 13:38:40,836 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 6747
+2017-09-03 13:38:45,732 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 340410
+2017-09-03 13:40:17,585 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 5159
+2017-09-03 13:40:23,601 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 5159
+2017-09-03 13:41:00,974 [WARNING] django.request: Not Found: /
+2017-09-03 13:41:00,975 [WARNING] django.server: "GET / HTTP/1.1" 404 2025
+2017-09-03 13:41:03,506 [INFO] django.server: "GET /wyszukiwarka/ HTTP/1.1" 200 5007
+2017-09-03 13:41:11,374 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 5154
+2017-09-03 13:43:04,564 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 13405
+2017-09-03 13:43:11,079 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 11185
+2017-09-03 13:43:24,708 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 6799
+2017-09-03 13:43:37,900 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 29831
+2017-09-03 13:45:02,057 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 29831
+2017-09-03 13:45:17,043 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 340406
+2017-09-03 13:45:53,061 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 340406
+2017-09-03 13:46:02,217 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 6692
+2017-09-03 13:46:10,603 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 8976
+2017-09-03 13:46:17,410 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 9028
+2017-09-03 13:46:28,034 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 9028
+2017-09-03 13:46:36,904 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 9029
+2017-09-03 13:46:45,828 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 8977
+2017-09-03 13:46:51,743 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 9029
+2017-09-03 13:47:03,226 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 8977
+2017-09-03 13:47:21,033 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 6693
+2017-09-03 13:47:30,518 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 6745
+2017-09-03 13:47:39,681 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 6745
+2017-09-03 13:48:10,475 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 6745
+2017-09-03 13:48:39,500 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 6693
+2017-09-03 13:48:46,325 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 6745
+2017-09-03 13:49:45,437 [INFO] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/Bukowska/19 HTTP/1.1" 200 340369
+2017-09-03 13:49:49,405 [INFO] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/Bukowska/119 HTTP/1.1" 200 340373
+2017-09-03 13:50:05,114 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 6693
+2017-09-03 13:50:10,396 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 6745
+2017-09-03 13:50:33,622 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 6693
+2017-09-03 13:50:42,176 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 340407
+2017-09-03 13:50:52,139 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 13288
+2017-09-03 13:50:57,878 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 340407
+2017-09-03 13:51:03,208 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 15362
+2017-09-03 13:51:08,912 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 15310
+2017-09-03 13:51:20,134 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 15362
+2017-09-03 13:51:26,101 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 15310
+2017-09-03 13:51:58,843 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 15310
+2017-09-03 13:52:03,573 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 15362
+2017-09-03 13:52:47,344 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 15372
+2017-09-03 13:52:59,450 [INFO] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/Bukowska/124c HTTP/1.1" 200 29764
+2017-09-03 13:53:12,146 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 43128
+2017-09-03 13:53:22,193 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 43190
+2017-09-03 13:53:30,941 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 6808
+2017-09-03 13:54:02,318 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 6759
+2017-09-03 13:54:06,628 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 6697
+2017-09-03 13:54:12,664 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 6759
+2017-09-03 13:54:28,145 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 6759
+2017-09-03 13:54:33,202 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 6759
+2017-09-03 13:54:35,916 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 6697
+2017-09-03 13:54:42,637 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 6759
+2017-09-03 13:59:42,178 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 6685
+2017-09-03 14:00:23,155 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 6761
+2017-09-03 14:00:35,212 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 6663
+2017-09-03 14:00:42,050 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 6761
+2017-09-03 14:00:54,607 [INFO] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/Bukowska/346 HTTP/1.1" 200 29730
+2017-09-03 14:05:32,909 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 378184
+2017-09-03 14:05:38,116 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 378184
+2017-09-03 14:05:47,861 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 378189
+2017-09-03 14:06:03,915 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 5138
+2017-09-03 14:06:28,352 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 5138
+2017-09-03 14:06:32,116 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 5138
+2017-09-03 14:06:38,176 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 5138
+2017-09-03 14:13:06,221 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/Poznañ/Bukowska/
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 34, in wyszukaj
+    znalezione_punkty_adresowe=geokoder.znajdz_adres(miejscowosc,ulica,numer,precyzja_wyszukiwania,'PRG_PunktAdresowy.sqlite')
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\geokoder.py", line 47, in znajdz_adres
+    if precyzja_wyszukiwania['ulicy']=="2": #czyli chce kombinowac
+KeyError: 'ulicy'
+2017-09-03 14:13:06,340 [ERROR] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 500 78424
+2017-09-03 14:13:30,274 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 5138
+2017-09-03 14:13:35,121 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 5138
+2017-09-03 14:13:39,542 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 378189
+2017-09-03 14:13:46,697 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 5142
+2017-09-03 14:13:50,136 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 5142
+2017-09-03 14:13:53,944 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 5142
+2017-09-03 14:14:26,308 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 5142
+2017-09-03 14:14:31,280 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 5141
+2017-09-03 14:14:34,791 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 32711
+2017-09-03 14:14:42,688 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 378193
+2017-09-03 14:14:55,717 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 5142
+2017-09-03 14:16:00,834 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 378201
+2017-09-03 14:16:17,324 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 378201
+2017-09-03 14:16:26,719 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 378201
+2017-09-03 14:18:26,832 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 6739
+2017-09-03 14:18:43,647 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 6739
+2017-09-03 14:18:48,595 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 340355
+2017-09-03 14:18:53,259 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 6641
+2017-09-03 14:19:03,730 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 6746
+2017-09-03 14:19:10,019 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 6746
+2017-09-03 14:19:41,357 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 6746
+2017-09-03 14:19:48,386 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 6746
+2017-09-03 14:19:52,981 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 6746
+2017-09-03 14:19:55,799 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 6746
+2017-09-03 14:19:59,141 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 6746
+2017-09-03 14:20:00,619 [INFO] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/Bukowska/19 HTTP/1.1" 200 340318
+2017-09-03 14:20:05,271 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 6746
+2017-09-03 14:21:56,516 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 340362
+2017-09-03 14:22:01,758 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 6746
+2017-09-03 14:22:09,504 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 6746
+2017-09-03 14:22:17,901 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 6648
+2017-09-03 14:22:24,839 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 6746
+2017-09-03 14:22:27,997 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 6746
+2017-09-03 14:22:31,622 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 6746
+2017-09-03 14:22:35,777 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 6648
+2017-09-03 14:22:40,357 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 340362
+2017-09-03 14:26:04,962 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 5138
+2017-09-03 14:26:17,009 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 5127
+2017-09-03 14:26:23,371 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 70176
+2017-09-03 14:35:57,818 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 567133
+2017-09-03 14:36:10,608 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 23266
+2017-09-03 14:36:19,080 [INFO] django.server: "GET /wyszukiwarka/link/Ko%C5%BAmin%20Wielkopolski/Pozna%C5%84ska/1 HTTP/1.1" 200 567085
+2017-09-03 14:37:28,480 [INFO] django.server: "POST /wyszukiwarka/link/Ko%C5%BAmin%20Wielkopolski/Pozna%C5%84ska/ HTTP/1.1" 200 20312
+2017-09-03 14:54:52,467 [INFO] django.server: "POST /wyszukiwarka/link/Ko%C5%BAmin%20Wielkopolski/Pozna%C5%84ska/ HTTP/1.1" 200 5129
+2017-09-03 14:55:01,074 [INFO] django.server: "POST /wyszukiwarka/link/Ko%C5%BAmin%20Wielkopolski/Pozna%C5%84ska/ HTTP/1.1" 200 8805
+2017-09-03 14:55:11,624 [INFO] django.server: "POST /wyszukiwarka/link/Ko%C5%BAmin%20Wielkopolski/Pozna%C5%84ska/ HTTP/1.1" 200 17412
+2017-09-03 14:57:08,666 [INFO] django.server: "POST /wyszukiwarka/link/Ko%C5%BAmin%20Wielkopolski/Pozna%C5%84ska/ HTTP/1.1" 200 567069
+2017-09-03 14:58:32,789 [INFO] django.server: "POST /wyszukiwarka/link/Ko%C5%BAmin%20Wielkopolski/Pozna%C5%84ska/ HTTP/1.1" 200 55484
+2017-09-03 14:58:35,666 [INFO] django.server: "POST /wyszukiwarka/link/Ko%C5%BAmin%20Wielkopolski/Pozna%C5%84ska/ HTTP/1.1" 200 13688
+2017-09-03 14:58:43,100 [INFO] django.server: "POST /wyszukiwarka/link/Ko%C5%BAmin%20Wielkopolski/Pozna%C5%84ska/ HTTP/1.1" 200 12951
+2017-09-03 14:59:36,688 [INFO] django.server: "POST /wyszukiwarka/link/Ko%C5%BAmin%20Wielkopolski/Pozna%C5%84ska/ HTTP/1.1" 200 5128
+2017-09-03 14:59:39,485 [INFO] django.server: "POST /wyszukiwarka/link/Ko%C5%BAmin%20Wielkopolski/Pozna%C5%84ska/ HTTP/1.1" 200 5128
+2017-09-03 14:59:43,303 [INFO] django.server: "POST /wyszukiwarka/link/Ko%C5%BAmin%20Wielkopolski/Pozna%C5%84ska/ HTTP/1.1" 200 5126
+2017-09-03 14:59:46,501 [INFO] django.server: "POST /wyszukiwarka/link/Ko%C5%BAmin%20Wielkopolski/Pozna%C5%84ska/ HTTP/1.1" 200 5126
+2017-09-03 14:59:52,987 [INFO] django.server: "POST /wyszukiwarka/link/Ko%C5%BAmin%20Wielkopolski/Pozna%C5%84ska/ HTTP/1.1" 200 5131
+2017-09-03 14:59:55,699 [INFO] django.server: "POST /wyszukiwarka/link/Ko%C5%BAmin%20Wielkopolski/Pozna%C5%84ska/ HTTP/1.1" 200 5130
+2017-09-03 14:59:59,892 [INFO] django.server: "POST /wyszukiwarka/link/Ko%C5%BAmin%20Wielkopolski/Pozna%C5%84ska/ HTTP/1.1" 200 8252
+2017-09-03 15:00:04,901 [INFO] django.server: "POST /wyszukiwarka/link/Ko%C5%BAmin%20Wielkopolski/Pozna%C5%84ska/ HTTP/1.1" 200 5129
+2017-09-03 15:01:28,871 [INFO] django.server: "POST /wyszukiwarka/link/Ko%C5%BAmin%20Wielkopolski/Pozna%C5%84ska/ HTTP/1.1" 200 16101
+2017-09-03 15:33:45,237 [INFO] django.server: "POST /wyszukiwarka/link/Ko%C5%BAmin%20Wielkopolski/Pozna%C5%84ska/ HTTP/1.1" 200 16101
+2017-09-03 15:33:49,101 [INFO] django.server: "GET /wyszukiwarka/link/%C5%9Amieszkowo/Szkolna/17 HTTP/1.1" 200 598786
+2017-09-03 15:34:56,986 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/Œmieszkowo/Szkolna/
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 40, in wyszukaj
+    logger.info("Nie znaleziono")
+NameError: name 'logger' is not defined
+2017-09-03 15:34:57,055 [ERROR] django.server: "POST /wyszukiwarka/link/%C5%9Amieszkowo/Szkolna/ HTTP/1.1" 500 73616
+2017-09-03 15:36:21,355 [INFO] django.server: "POST /wyszukiwarka/link/%C5%9Amieszkowo/Szkolna/ HTTP/1.1" 200 5126
+2017-09-03 15:37:54,749 [INFO] django.server: "GET /wyszukiwarka/link/%C5%9Amieszkowo/Szkolna/ HTTP/1.1" 200 37903
+2017-09-03 15:38:14,413 [INFO] django.server: "GET /wyszukiwarka/ HTTP/1.1" 200 4956
+2017-09-03 15:38:36,020 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 5123
+2017-09-03 15:40:04,565 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 5123
+2017-09-03 15:40:14,626 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 15862028
+2017-09-03 15:40:14,658 [ERROR] django.server: "POST /wyszukiwarka/ HTTP/1.1" 500 59
+2017-09-03 15:40:22,094 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 15862028
+2017-09-03 15:42:20,521 [INFO] django.server: "GET /wyszukiwarka/ HTTP/1.1" 200 4956
+2017-09-03 15:42:29,065 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 283164
+2017-09-03 15:43:15,015 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 283164
+2017-09-03 15:43:23,351 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 10353
+2017-09-03 15:43:54,041 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 10353
+2017-09-03 16:27:50,123 [INFO] django.server: "GET /wyszukiwarka/ HTTP/1.1" 200 4956
+2017-09-03 16:28:02,712 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 23876
+2017-09-03 16:46:32,502 [INFO] django.server: "GET /wyszukiwarka/ HTTP/1.1" 200 4956
+2017-09-03 16:46:40,861 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 6695
+2017-09-03 16:46:47,564 [INFO] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/%C5%9Awi%C4%99ty%20Marcin/46/50 HTTP/1.1" 200 23837
+2017-09-03 16:52:41,109 [INFO] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/%C5%9Awi%C4%99ty%20Marcin/46/50 HTTP/1.1" 200 24399
+2017-09-03 17:11:50,683 [INFO] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/%C5%9Awi%C4%99ty%20Marcin/46/50 HTTP/1.1" 200 24306
+2017-09-03 17:12:24,647 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/Poznañ/Œwiêty Marcin/46/
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\utils\datastructures.py", line 83, in __getitem__
+    list_ = super(MultiValueDict, self).__getitem__(key)
+KeyError: 'miejscowosc'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 29, in wyszukaj
+    miejscowosc, ulica, numer = form.data['miejscowosc'], form.data['ulica'], form.data['numer']
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\utils\datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+django.utils.datastructures.MultiValueDictKeyError: "'miejscowosc'"
+2017-09-03 17:12:24,748 [ERROR] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/%C5%9Awi%C4%99ty%20Marcin/46/ HTTP/1.1" 500 80376
+2017-09-03 17:13:50,074 [INFO] django.server: "GET /wyszukiwarka/ HTTP/1.1" 200 5425
+2017-09-03 17:13:59,618 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 24344
+2017-09-03 17:14:06,419 [INFO] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/%C5%9Awi%C4%99ty%20Marcin/46/50 HTTP/1.1" 200 24306
+2017-09-03 17:18:13,935 [WARNING] django.request: Not Found: /wyszukiwarka/l
+2017-09-03 17:18:13,936 [WARNING] django.server: "GET /wyszukiwarka/l HTTP/1.1" 404 2649
+2017-09-03 17:18:30,666 [ERROR] django.request: Internal Server Error: /wyszukiwarka/lnavi/
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: wyszukajWNavi() got an unexpected keyword argument 'nazwapracodawcy'
+2017-09-03 17:18:30,743 [ERROR] django.server: "GET /wyszukiwarka/lnavi/ HTTP/1.1" 500 65408
+2017-09-03 17:18:50,499 [ERROR] django.request: Internal Server Error: /wyszukiwarka/lnavi/
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 87, in wyszukajWNavi
+    return render(request, 'wyszukiwarka/wynikiZNavi.html', { 'form_navi': form_navi,
+NameError: name 'form_navi' is not defined
+2017-09-03 17:18:50,561 [ERROR] django.server: "GET /wyszukiwarka/lnavi/ HTTP/1.1" 500 69030
+2017-09-03 17:18:57,452 [ERROR] django.request: Internal Server Error: /wyszukiwarka/navi/
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 87, in wyszukajWNavi
+    return render(request, 'wyszukiwarka/wynikiZNavi.html', { 'form_navi': form_navi,
+NameError: name 'form_navi' is not defined
+2017-09-03 17:18:57,523 [ERROR] django.server: "GET /wyszukiwarka/navi/ HTTP/1.1" 500 68885
+2017-09-03 17:19:46,474 [ERROR] django.request: Internal Server Error: /wyszukiwarka/navi/
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 88, in wyszukajWNavi
+    'wyniki': znalezione_punkty_adresowe,
+NameError: name 'znalezione_punkty_adresowe' is not defined
+2017-09-03 17:19:46,541 [ERROR] django.server: "GET /wyszukiwarka/navi/ HTTP/1.1" 500 69138
+2017-09-03 17:23:51,819 [ERROR] django.request: Internal Server Error: /wyszukiwarka/navi/
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 87, in wyszukajWNavi
+    result = {}
+NameError: name 'psycopg2' is not defined
+2017-09-03 17:23:51,889 [ERROR] django.server: "GET /wyszukiwarka/navi/ HTTP/1.1" 500 69514
+2017-09-03 17:24:37,376 [ERROR] django.request: Internal Server Error: /wyszukiwarka/navi/
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 126, in wyszukajWNavi
+    'obszar_do_wyswietlenia': result['obszar_do_wyswietlenia']})
+KeyError: 'obszar_do_wyswietlenia'
+2017-09-03 17:24:37,509 [ERROR] django.server: "GET /wyszukiwarka/navi/ HTTP/1.1" 500 75568
+2017-09-03 17:25:00,898 [INFO] django.server: "GET /wyszukiwarka/navi/ HTTP/1.1" 200 28016
+2017-09-03 17:26:47,088 [INFO] django.server: "GET /wyszukiwarka/navi/ HTTP/1.1" 200 3295
+2017-09-03 17:26:57,810 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 3295
+2017-09-03 17:29:57,341 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 3295
+2017-09-03 17:30:00,836 [INFO] django.server: "GET /wyszukiwarka/ HTTP/1.1" 200 5425
+2017-09-03 17:30:06,095 [INFO] django.server: "GET /wyszukiwarka/navi/ HTTP/1.1" 200 3295
+2017-09-03 17:30:10,584 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 3295
+2017-09-03 17:30:20,967 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 4771
+2017-09-03 17:30:27,218 [INFO] django.server: "GET /wyszukiwarka/link/Solec/Le%C5%9Bna/4 HTTP/1.1" 200 7084
+2017-09-03 17:30:33,174 [INFO] django.server: "GET /wyszukiwarka/link/Solec/Le%C5%9Bna/4 HTTP/1.1" 200 7084
+2017-09-03 17:30:36,535 [INFO] django.server: "GET /wyszukiwarka/link/Solec/Le%C5%9Bna/4 HTTP/1.1" 200 7084
+2017-09-03 17:30:38,589 [INFO] django.server: "GET /wyszukiwarka/link/Solec/Le%C5%9Bna/4 HTTP/1.1" 200 7084
+2017-09-03 17:31:11,526 [INFO] django.server: "GET /wyszukiwarka/link/Solec/Le%C5%9Bna/4 HTTP/1.1" 200 7084
+2017-09-03 17:31:13,428 [INFO] django.server: "GET /wyszukiwarka/link/Solec/Le%C5%9Bna/4 HTTP/1.1" 200 7084
+2017-09-03 17:31:20,029 [INFO] django.server: "GET /wyszukiwarka/link/Solec/Le%C5%9Bna/4 HTTP/1.1" 200 7084
+2017-09-03 17:31:21,721 [INFO] django.server: "GET /wyszukiwarka/link/Solec/Le%C5%9Bna/4 HTTP/1.1" 200 7084
+2017-09-03 17:33:12,016 [INFO] django.server: "POST /wyszukiwarka/link/Solec/Le%C5%9Bna/ HTTP/1.1" 200 7162
+2017-09-03 17:33:15,170 [INFO] django.server: "POST /wyszukiwarka/link/Solec/Le%C5%9Bna/ HTTP/1.1" 200 7162
+2017-09-03 17:33:19,898 [INFO] django.server: "GET /wyszukiwarka HTTP/1.1" 301 0
+2017-09-03 17:33:20,191 [INFO] django.server: "GET /wyszukiwarka/ HTTP/1.1" 200 5425
+2017-09-03 17:33:27,544 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 7163
+2017-09-03 17:33:30,939 [INFO] django.server: "GET /wyszukiwarka/link/Trzemeszno/Mikolaja%20Kopernika/18 HTTP/1.1" 200 7122
+2017-09-03 17:33:31,833 [INFO] django.server: "GET /wyszukiwarka/link/Trzemeszno/Mikolaja%20Kopernika/18 HTTP/1.1" 200 7122
+2017-09-03 17:35:15,014 [INFO] django.server: "GET /wyszukiwarka/ HTTP/1.1" 200 5425
+2017-09-03 17:35:19,183 [INFO] django.server: "GET /wyszukiwarka/navi/ HTTP/1.1" 200 4771
+2017-09-03 17:35:30,083 [INFO] django.server: "GET /wyszukiwarka/navi/ HTTP/1.1" 200 338686
+2017-09-03 17:38:38,844 [INFO] django.server: "GET /wyszukiwarka/navi/ HTTP/1.1" 200 338686
+2017-09-03 17:39:45,738 [INFO] django.server: "GET /wyszukiwarka/navi/ HTTP/1.1" 200 338792
+2017-09-03 17:39:54,172 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 338792
+2017-09-03 17:40:56,565 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 338792
+2017-09-03 17:42:57,604 [ERROR] django.request: Internal Server Error: /wyszukiwarka/navi/
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 95, in wyszukajWNavi
+    nazwapracodawcy = form_navi.data['nazwapracodawcy']
+KeyError: 'nazwapracodawcy'
+2017-09-03 17:42:57,675 [ERROR] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 500 70843
+2017-09-03 17:43:28,822 [ERROR] django.request: Internal Server Error: /wyszukiwarka/navi/
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 95, in wyszukajWNavi
+    nazwapracodawcy = form_navi.data['nazwapracodawcy']
+KeyError: 'nazwapracodawcy'
+2017-09-03 17:43:28,889 [ERROR] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 500 70844
+2017-09-03 17:43:54,083 [ERROR] django.request: Internal Server Error: /wyszukiwarka/navi/
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 108, in wyszukajWNavi
+    znalezione_punkty_adresowe = geokoder.znajdz_adres(data[0][8], data[0][10], data[0][11], {'miejscowosc': True, 'ulica': True,
+IndexError: list index out of range
+2017-09-03 17:43:54,186 [ERROR] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 500 72121
+2017-09-03 17:44:48,084 [ERROR] django.request: Internal Server Error: /wyszukiwarka/navi/
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 111, in wyszukajWNavi
+    znalezione_punkty_adresowe = geokoder.znajdz_adres(data[0][8], data[0][10], data[0][11], {'miejscowosc': True, 'ulica': True,
+IndexError: list index out of range
+2017-09-03 17:44:48,150 [ERROR] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 500 72231
+2017-09-03 17:47:15,365 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 14114
+2017-09-03 17:47:35,658 [INFO] django.server: "GET /wyszukiwarka/link/Rostarzewo/Plac%20Powsta%C5%84c%C3%B3w%20Wielkopolskich/16 HTTP/1.1" 200 249845
+2017-09-03 17:47:44,454 [INFO] django.server: "GET /wyszukiwarka/link/Rostarzewo/Plac%20Powsta%C5%84c%C3%B3w%20Wielkopolskich/16A HTTP/1.1" 200 249853
+2017-09-03 17:48:04,116 [ERROR] django.request: Internal Server Error: /wyszukiwarka/navi/
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 110, in wyszukajWNavi
+    znalezione_punkty_adresowe = geokoder.znajdz_adres(data[0][8], data[0][10], data[0][11], {'miejscowosc': True, 'ulica': True,
+IndexError: list index out of range
+2017-09-03 17:48:04,179 [ERROR] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 500 72281
+2017-09-03 17:48:08,744 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 14147
+2017-09-03 17:48:22,021 [ERROR] django.request: Internal Server Error: /wyszukiwarka/navi/
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 110, in wyszukajWNavi
+    znalezione_punkty_adresowe = geokoder.znajdz_adres(data[0][8], data[0][10], data[0][11], {'miejscowosc': True, 'ulica': True,
+IndexError: list index out of range
+2017-09-03 17:48:22,089 [ERROR] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 500 72312
+2017-09-03 17:48:39,060 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 565445
+2017-09-03 17:49:14,916 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 565438
+2017-09-03 17:49:27,076 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 565417
+2017-09-03 17:50:08,672 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 11682
+2017-09-03 17:50:35,048 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 11682
+2017-09-03 17:51:04,359 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 376596
+2017-09-03 17:51:12,534 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 7274
+2017-09-03 17:51:22,878 [INFO] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/Warszawska/143 HTTP/1.1" 200 378618
+2017-09-03 17:51:36,747 [INFO] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/Warszawska/43 HTTP/1.1" 200 378610
+2017-09-03 17:51:55,991 [INFO] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/Warszawska/82/43 HTTP/1.1" 200 378626
+2017-09-03 17:53:59,199 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 7274
+2017-09-03 17:54:05,850 [INFO] django.server: "GET /wyszukiwarka/ HTTP/1.1" 200 5579
+2017-09-03 17:54:14,990 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 7319
+2017-09-03 17:54:20,304 [INFO] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/%C5%9Awi%C4%99ty%20Marcin/46/50 HTTP/1.1" 200 24460
+2017-09-03 17:54:24,002 [ERROR] django.request: Internal Server Error: /wyszukiwarka/navi/
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view wyszukiwarka.views.wyszukajWNavi didn't return an HttpResponse object. It returned None instead.
+2017-09-03 17:54:24,061 [ERROR] django.server: "GET /wyszukiwarka/navi/ HTTP/1.1" 500 60447
+2017-09-03 17:55:19,642 [ERROR] django.request: Internal Server Error: /wyszukiwarka/navi/
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 142, in wyszukajWNavi
+    return render(request, 'wyszukiwarka/wynikiZNavi.html', { 'form_navi': form_navi,
+UnboundLocalError: local variable 'form_navi' referenced before assignment
+2017-09-03 17:55:19,712 [ERROR] django.server: "GET /wyszukiwarka/navi/ HTTP/1.1" 500 70334
+2017-09-03 17:55:36,774 [ERROR] django.request: Internal Server Error: /wyszukiwarka/navi/
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 143, in wyszukajWNavi
+    return render(request, 'wyszukiwarka/wynikiZNavi.html', { 'form_navi': form_navi,
+UnboundLocalError: local variable 'form_navi' referenced before assignment
+2017-09-03 17:55:36,841 [ERROR] django.server: "GET /wyszukiwarka/navi/ HTTP/1.1" 500 70498
+2017-09-03 17:55:51,599 [ERROR] django.request: Internal Server Error: /wyszukiwarka/navi/
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 143, in wyszukajWNavi
+    return render(request, 'wyszukiwarka/wynikiZNavi.html', { 'form_navi': form_navi,
+UnboundLocalError: local variable 'form_navi' referenced before assignment
+2017-09-03 17:55:51,662 [ERROR] django.server: "GET /wyszukiwarka/navi/ HTTP/1.1" 500 70504
+2017-09-03 17:55:54,161 [ERROR] django.request: Internal Server Error: /wyszukiwarka/navi/
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 143, in wyszukajWNavi
+    return render(request, 'wyszukiwarka/wynikiZNavi.html', { 'form_navi': form_navi,
+UnboundLocalError: local variable 'form_navi' referenced before assignment
+2017-09-03 17:55:54,223 [ERROR] django.server: "GET /wyszukiwarka/navi/ HTTP/1.1" 500 70504
+2017-09-03 17:56:19,158 [INFO] django.server: "GET /wyszukiwarka/navi/ HTTP/1.1" 200 3404
+2017-09-03 17:56:49,653 [INFO] django.server: "GET /wyszukiwarka/navi/ HTTP/1.1" 200 3404
+2017-09-03 17:57:19,464 [INFO] django.server: "GET /wyszukiwarka/navi/ HTTP/1.1" 200 3592
+2017-09-03 17:57:21,143 [INFO] django.server: "GET /wyszukiwarka/ HTTP/1.1" 200 5613
+2017-09-03 17:57:27,900 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 161545
+2017-09-03 17:57:32,963 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 14011
+2017-09-03 17:57:37,325 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 11791
+2017-09-03 17:57:43,582 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 11791
+2017-09-03 17:57:49,536 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 30437
+2017-09-03 17:57:53,778 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 7353
+2017-09-03 17:57:59,243 [INFO] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/%C5%9Awi%C4%99ty%20Marcin/46/50 HTTP/1.1" 200 24494
+2017-09-03 17:58:14,597 [INFO] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/%C5%9Awi%C4%99ty%20Marcin/46/50 HTTP/1.1" 200 24030
+2017-09-03 17:58:18,073 [INFO] django.server: "GET /wyszukiwarka/navi/ HTTP/1.1" 200 3592
+2017-09-03 17:58:32,457 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 391006
+2017-09-03 17:58:49,679 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 11870
+2017-09-03 17:58:55,853 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 11869
+2017-09-03 17:59:08,837 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 24277
+2017-09-03 17:59:17,602 [INFO] django.server: "GET /wyszukiwarka/link/Z%C5%82ot%C3%B3w/Aleja%20Piasta/11D HTTP/1.1" 200 598963
+2017-09-03 17:59:44,142 [INFO] django.server: "GET /wyszukiwarka/ HTTP/1.1" 200 5149
+2017-09-03 18:02:56,361 [INFO] django.server: "GET /wyszukiwarka/navi/ HTTP/1.1" 200 3592
+2017-09-03 18:03:01,956 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 11870
+2017-09-03 18:07:25,450 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 89032
+2017-09-03 18:08:48,556 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 37836
+2017-09-03 18:09:20,935 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 109831
+2017-09-03 18:10:00,023 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 45023
+2017-09-03 18:11:36,898 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 44345
+2017-09-03 18:12:59,256 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 44893
+2017-09-03 18:13:05,505 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 257581
+2017-09-03 18:13:19,878 [INFO] django.server: "GET /wyszukiwarka/link/KALISKA/59/ HTTP/1.1" 200 5302
+2017-09-03 18:13:26,840 [INFO] django.server: "GET /wyszukiwarka/link/STEFANA%20GROTA%20ROWECKIEGO/16/33 HTTP/1.1" 200 5302
+2017-09-03 18:13:31,608 [INFO] django.server: "GET /wyszukiwarka/link/J%C3%93ZEFA%20G%C3%93RECKIEGO/33B/ HTTP/1.1" 200 5302
+2017-09-03 18:14:54,303 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 239598
+2017-09-03 18:14:59,480 [INFO] django.server: "GET /wyszukiwarka/link/Z%C5%82ot%C3%B3w/Aleja%20Piasta/41 HTTP/1.1" 200 598978
+2017-09-03 18:16:02,401 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 828847
+2017-09-03 18:16:59,573 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 830895
+2017-09-03 18:17:16,330 [INFO] django.server: "GET /wyszukiwarka/link/JASTROWIE//79 HTTP/1.1" 200 598979
+2017-09-03 18:18:15,077 [INFO] django.server: "GET /wyszukiwarka/ HTTP/1.1" 200 5168
+2017-09-03 18:19:00,937 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 87215
+2017-09-03 18:19:01,264 [ERROR] django.server: "POST /wyszukiwarka/ HTTP/1.1" 500 59
+2017-09-03 18:19:02,847 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 87215
+2017-09-03 18:19:03,054 [ERROR] django.server: "POST /wyszukiwarka/ HTTP/1.1" 500 59
+2017-09-03 18:19:05,775 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 15012796
+2017-09-03 18:19:05,869 [ERROR] django.server: "POST /wyszukiwarka/ HTTP/1.1" 500 59
+2017-09-03 18:19:06,638 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 87215
+2017-09-03 18:19:13,282 [INFO] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/Marcina%20Chwia%C5%82kowskiego/18 HTTP/1.1" 200 13488
+2017-09-03 18:19:26,441 [INFO] django.server: "GET /wyszukiwarka/navi/ HTTP/1.1" 200 3862
+2017-09-03 18:19:41,915 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 433650
+2017-09-03 18:20:33,902 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link///
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 83, in wyszukaj
+    'obszar_do_wyswietlenia': result['obszar_do_wyswietlenia'] })
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\template\defaulttags.py", line 225, in render
+    return mark_safe(''.join(force_text(n) for n in nodelist))
+MemoryError
+2017-09-03 18:21:19,130 [ERROR] django.server: "GET /wyszukiwarka/link/// HTTP/1.1" 500 118592
+2017-09-03 18:21:19,132 [ERROR] django.server: "GET /wyszukiwarka/link/// HTTP/1.1" 500 59
+2017-09-03 18:21:53,751 [ERROR] django.request: Internal Server Error: /wyszukiwarka/navi/
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 120, in wyszukajWNavi
+    'WSZYSTKO_bez_podzialu_powiatow_BEZ_poznanskich.geojson')
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\geometria.py", line 58, in opisz_punkt_adresowy
+    plik_z_geometriami)  # 'WSZYSTKO.geojson')
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\geometria.py", line 45, in pobierz_obszar
+    data = json.load(f)
+  File "c:\programdata\anaconda3\Lib\json\__init__.py", line 296, in load
+    return loads(fp.read(),
+MemoryError
+2017-09-03 18:22:17,097 [ERROR] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 500 98449
+2017-09-03 18:22:32,951 [ERROR] django.request: Internal Server Error: /wyszukiwarka/navi/
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 120, in wyszukajWNavi
+    'WSZYSTKO_bez_podzialu_powiatow_BEZ_poznanskich.geojson')
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\geometria.py", line 58, in opisz_punkt_adresowy
+    plik_z_geometriami)  # 'WSZYSTKO.geojson')
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\geometria.py", line 45, in pobierz_obszar
+    data = json.load(f)
+  File "c:\programdata\anaconda3\Lib\json\__init__.py", line 296, in load
+    return loads(fp.read(),
+MemoryError
+2017-09-03 18:23:00,367 [ERROR] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 500 98449
+2017-09-03 18:23:04,828 [INFO] django.server: "GET /wyszukiwarka/ HTTP/1.1" 200 5168
+2017-09-03 18:23:21,247 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 6854
+2017-09-03 18:23:26,001 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/Poznañ/Bukowska/19
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 61, in wyszukaj
+    'WSZYSTKO_bez_podzialu_powiatow_BEZ_poznanskich.geojson')
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\geometria.py", line 58, in opisz_punkt_adresowy
+    plik_z_geometriami)  # 'WSZYSTKO.geojson')
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\geometria.py", line 45, in pobierz_obszar
+    data = json.load(f)
+  File "c:\programdata\anaconda3\Lib\json\__init__.py", line 296, in load
+    return loads(fp.read(),
+MemoryError
+2017-09-03 18:23:26,100 [ERROR] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/Bukowska/19 HTTP/1.1" 500 86440
+2017-09-03 18:23:47,756 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/Poznañ/Bukowska/119
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 61, in wyszukaj
+    'WSZYSTKO_bez_podzialu_powiatow_BEZ_poznanskich.geojson')
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\geometria.py", line 58, in opisz_punkt_adresowy
+    plik_z_geometriami)  # 'WSZYSTKO.geojson')
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\geometria.py", line 45, in pobierz_obszar
+    data = json.load(f)
+  File "c:\programdata\anaconda3\Lib\json\__init__.py", line 296, in load
+    return loads(fp.read(),
+MemoryError
+2017-09-03 18:23:47,832 [ERROR] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/Bukowska/119 HTTP/1.1" 500 86457
+2017-09-03 18:23:52,387 [ERROR] django.request: Internal Server Error: /wyszukiwarka/
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 37, in wyszukaj
+    result=geometria.opisz_punkt_adresowy(znalezione_punkty_adresowe[0][1],geometria.OBSZARY_SEKCJI_DO_SPRAWDZENIA,'WSZYSTKO_bez_podzialu_powiatow_BEZ_poznanskich.geojson')
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\geometria.py", line 58, in opisz_punkt_adresowy
+    plik_z_geometriami)  # 'WSZYSTKO.geojson')
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\geometria.py", line 45, in pobierz_obszar
+    data = json.load(f)
+  File "c:\programdata\anaconda3\Lib\json\__init__.py", line 296, in load
+    return loads(fp.read(),
+MemoryError
+2017-09-03 18:23:52,466 [ERROR] django.server: "POST /wyszukiwarka/ HTTP/1.1" 500 87740
+2017-09-03 18:25:39,122 [INFO] django.server: "GET /wyszukiwarka/ HTTP/1.1" 200 5168
+2017-09-03 18:25:44,404 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 6853
+2017-09-03 18:25:47,508 [INFO] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/Bukowska/19 HTTP/1.1" 200 340530
+2017-09-03 18:25:58,773 [ERROR] django.request: Internal Server Error: /wyszukiwarka/navi/
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 151, in wyszukajWNavi
+    'obszar_do_wyswietlenia': result['obszar_do_wyswietlenia']})
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\template\loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\template\backends\django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\template\engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\template\engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\template\loaders\base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\template\base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\template\base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\template\base.py", line 515, in parse
+    raise self.error(token, e)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\template\base.py", line 513, in parse
+    compiled_result = compile_func(self, token)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\template\defaulttags.py", line 827, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\template\base.py", line 486, in parse
+    raise self.error(token, e)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\template\base.py", line 484, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\template\base.py", line 700, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ' == None %}/{% else %}{{ firma.10' from 'firma.10 == None %}/{% else %}{{ firma.10'
+2017-09-03 18:25:58,875 [ERROR] django.server: "GET /wyszukiwarka/navi/ HTTP/1.1" 500 162771
+2017-09-03 18:26:20,691 [INFO] django.server: "GET /wyszukiwarka/navi/ HTTP/1.1" 200 3862
+2017-09-03 18:26:28,877 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 434459
+2017-09-03 18:26:46,851 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 844276
+2017-09-03 18:26:54,205 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 413261
+2017-09-03 18:27:30,558 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 413318
+2017-09-03 18:28:09,166 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 415109
+2017-09-03 18:28:19,963 [INFO] django.server: "GET /wyszukiwarka/link/PI%C5%81A/WALKI%20M%C5%81ODYCH/1 HTTP/1.1" 200 599001
+2017-09-03 18:28:43,866 [INFO] django.server: "GET /wyszukiwarka/navi/ HTTP/1.1" 200 3862
+2017-09-03 18:28:55,010 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 397369
+2017-09-03 18:29:09,603 [INFO] django.server: "GET /wyszukiwarka/link/POZNA%C5%83/GRUNWALDZKA/38B HTTP/1.1" 200 29937
+2017-09-03 18:30:33,276 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 397500
+2017-09-03 18:30:38,119 [INFO] django.server: "GET /wyszukiwarka/link/PI%C5%81A/MOTYLEWSKA/11 HTTP/1.1" 200 599124
+2017-09-03 18:31:24,421 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 397500
+2017-09-03 18:31:30,850 [INFO] django.server: "GET /wyszukiwarka/link/PI%C5%81A/DRYGASA/29 HTTP/1.1" 200 599128
+2017-09-03 18:32:08,262 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 397523
+2017-09-03 18:32:13,536 [INFO] django.server: "GET /wyszukiwarka/navi/ HTTP/1.1" 200 4016
+2017-09-03 18:32:24,083 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 28479
+2017-09-03 18:33:44,306 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 13551
+2017-09-03 18:34:01,271 [INFO] django.server: "GET /wyszukiwarka/link/Konin/Dworcowa/7A HTTP/1.1" 200 446387
+2017-09-03 18:34:11,941 [INFO] django.server: "GET /wyszukiwarka/link/WRZE%C5%9ANIA/S%C4%84DOWA%202/ HTTP/1.1" 200 5456
+2017-09-03 18:34:19,713 [INFO] django.server: "GET /wyszukiwarka/link/WRZE%C5%9ANIA/S%C4%84DOWA HTTP/1.1" 301 0
+2017-09-03 18:34:20,718 [INFO] django.server: "GET /wyszukiwarka/link/WRZE%C5%9ANIA/S%C4%84DOWA/ HTTP/1.1" 200 10085
+2017-09-03 18:34:47,486 [WARNING] django.request: Not Found: /wyszukiwarka/link/POZNAÑ/ŒW.MARCIN 52/56/
+2017-09-03 18:34:47,488 [WARNING] django.server: "GET /wyszukiwarka/link/POZNA%C5%83/%C5%9AW.MARCIN%2052/56/ HTTP/1.1" 404 2746
+2017-09-03 18:34:58,261 [INFO] django.server: "GET /wyszukiwarka/link/POZNA%C5%83/MARCIN%2052/56/ HTTP/1.1" 200 5456
+2017-09-03 18:35:07,904 [INFO] django.server: "GET /wyszukiwarka/link/POZNA%C5%83/MARCIN/52/56/ HTTP/1.1" 200 5456
+2017-09-03 18:35:15,417 [INFO] django.server: "POST /wyszukiwarka/link/POZNA%C5%83/MARCIN/52/56/ HTTP/1.1" 200 7062
+2017-09-03 18:35:21,836 [INFO] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/%C5%9Awi%C4%99ty%20Marcin/52/56 HTTP/1.1" 200 24203
+2017-09-03 18:38:57,933 [INFO] django.server: "GET /wyszukiwarka/navi/ HTTP/1.1" 200 3891
+2017-09-03 18:39:13,102 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 38466
+2017-09-03 18:39:33,562 [INFO] django.server: "GET /wyszukiwarka/link/POZNA%C5%83/MIESZKA%20I/26 HTTP/1.1" 200 369929
+2017-09-03 18:40:14,691 [INFO] django.server: "GET /wyszukiwarka/link/POZNA%C5%83/MIESZKA/26 HTTP/1.1" 200 24203
+2017-09-03 18:56:19,117 [INFO] django.server: "GET /wyszukiwarka/navi/ HTTP/1.1" 200 3985
+2017-09-03 18:56:30,460 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 9725
+2017-09-03 18:56:40,142 [INFO] django.server: "GET /wyszukiwarka/link/JANIKOWO/GNIE%C5%B9NIE%C5%83SKA/8 HTTP/1.1" 200 378541
+2017-09-03 18:56:47,535 [INFO] django.server: "GET /wyszukiwarka/navi/ HTTP/1.1" 200 3985
+2017-09-03 18:57:03,706 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 446848
+2017-09-03 18:57:36,836 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 446867
+2017-09-03 18:57:51,799 [INFO] django.server: "GET /wyszukiwarka/link/WYSOCKO%20WIELKIE/KO%C5%9ACIELNA/34 HTTP/1.1" 200 567445
+2017-09-03 18:58:02,355 [INFO] django.server: "GET /wyszukiwarka/link/RAWICZ/ADAMA%20MICKIEWICZA/29/A HTTP/1.1" 200 5456
+2017-09-03 18:58:15,526 [INFO] django.server: "GET /wyszukiwarka/link/RAWICZ/MICKIEWICZA/29/A HTTP/1.1" 200 5456
+2017-09-03 18:59:09,640 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 446867
+2017-09-03 18:59:36,006 [INFO] django.server: "GET /wyszukiwarka/link/RAWICZ/ADAMA%20MICKIEWICZA/29/A HTTP/1.1" 200 5456
+2017-09-03 18:59:43,939 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 446867
+2017-09-03 18:59:48,951 [INFO] django.server: "GET /wyszukiwarka/link/RAWICZ/ADAMA%20MICKIEWICZA/29/A HTTP/1.1" 200 5456
+2017-09-03 19:00:21,005 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 446867
+2017-09-03 19:00:25,109 [INFO] django.server: "GET /wyszukiwarka/link/RAWICZ/ADAMA%20MICKIEWICZA/29/A HTTP/1.1" 200 5456
+2017-09-03 19:00:42,733 [INFO] django.server: "POST /wyszukiwarka/link/RAWICZ/ADAMA%20MICKIEWICZA/29/ HTTP/1.1" 200 11232
+2017-09-03 19:00:48,104 [INFO] django.server: "GET /wyszukiwarka/link/Rawicz/Adama%20Mickiewicza/29a HTTP/1.1" 200 389801
+2017-09-03 19:01:03,985 [INFO] django.server: "GET /wyszukiwarka/link/RAWICZ/ADAMA%20MICKIEWICZA/29 HTTP/1.1" 200 389781
+2017-09-03 19:01:26,557 [INFO] django.server: "GET /wyszukiwarka/link/POZNA%C5%83/STEFANA%20BATOREGO/29C HTTP/1.1" 200 24195
+2017-09-03 19:01:35,900 [INFO] django.server: "GET /wyszukiwarka/link/POZNA%C5%83/JANA%20BRZECHWY/2 HTTP/1.1" 200 30083
+2017-09-03 19:01:44,109 [INFO] django.server: "GET /wyszukiwarka/link/POZNA%C5%83/JANA%20BRZECHWY/2 HTTP/1.1" 200 30083
+2017-09-03 19:02:11,046 [INFO] django.server: "GET /wyszukiwarka/link/WYSOCKO%20WIELKIE/KO%C5%9ACIELNA/34 HTTP/1.1" 200 567445
+2017-09-03 19:02:16,974 [INFO] django.server: "GET /wyszukiwarka/link/RAWICZ/ADAMA%20MICKIEWICZA/29/A HTTP/1.1" 200 5456
+2017-09-03 19:02:23,098 [INFO] django.server: "GET /wyszukiwarka/link/RAWICZ/ADAMA%20MICKIEWICZA/29 HTTP/1.1" 200 389781
+2017-09-03 19:04:38,640 [INFO] django.server: "GET /wyszukiwarka/link/POZNA%C5%83/STEFANA%20BATOREGO/29C HTTP/1.1" 200 24195
+2017-09-03 19:13:51,579 [INFO] django.server: "POST /wyszukiwarka/navi/ HTTP/1.1" 200 4362
+2017-09-03 19:13:58,718 [INFO] django.server: "GET /wyszukiwarka/link/BACHORZEW/POLNA/10 HTTP/1.1" 200 5456
+2017-09-03 19:14:10,557 [INFO] django.server: "POST /wyszukiwarka/link/BACHORZEW/POLNA/ HTTP/1.1" 200 5493
+2017-09-03 19:14:14,863 [INFO] django.server: "GET /wyszukiwarka/ HTTP/1.1" 200 5322
+2017-09-03 19:14:21,445 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 5493
+2017-09-03 19:14:21,448 [ERROR] django.server: "POST /wyszukiwarka/ HTTP/1.1" 500 59
+2017-09-03 19:14:21,667 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 5493
+2017-09-03 19:15:04,379 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 567440
+2017-09-03 19:24:04,842 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 567440
+2017-09-03 19:24:07,441 [INFO] django.server: "GET /wyszukiwarka/ HTTP/1.1" 200 5322
+2017-09-03 19:24:15,883 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/BACHORZEW/POLNA/10
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 91, in wyszukaj
+    ostateczny_result.append([item, "Nie odnaleziono jednoznacznego punktu."])
+NameError: name 'ostateczny_result' is not defined
+2017-09-03 19:24:15,934 [ERROR] django.server: "GET /wyszukiwarka/link/BACHORZEW/POLNA/10 HTTP/1.1" 500 71762
+2017-09-03 19:24:35,808 [INFO] django.server: "GET /wyszukiwarka/link/BACHORZEW/POLNA/10 HTTP/1.1" 200 5456
+2017-09-03 19:24:44,488 [INFO] django.server: "GET /wyszukiwarka/link/BACHORZEW/POLNA/10 HTTP/1.1" 200 5456
+2017-09-03 19:25:37,686 [INFO] django.server: "GET /wyszukiwarka/link/BACHORZEW/POLNA/10 HTTP/1.1" 200 5456
+2017-09-03 19:30:00,149 [INFO] django.server: "POST /wyszukiwarka/link/BACHORZEW/POLNA/ HTTP/1.1" 200 5497
+2017-09-03 19:30:19,203 [INFO] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 200 5456
+2017-09-03 19:32:52,443 [INFO] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 200 5456
+2017-09-03 19:33:22,557 [INFO] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 200 5456
+2017-09-03 19:33:41,559 [INFO] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 200 5456
+2017-09-03 19:34:24,347 [INFO] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 200 5456
+2017-09-03 19:34:54,666 [INFO] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 200 5456
+2017-09-03 19:35:25,142 [INFO] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 200 5456
+2017-09-03 19:36:00,262 [INFO] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 200 5456
+2017-09-03 19:36:33,056 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/BACHORZEW/leœna/17
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 82, in wyszukaj
+    result = geometria.opisz_punkt_adresowy("POINT ("+str(location.latitude)+" "+str(location.laongtitude)+")",
+AttributeError: 'Location' object has no attribute 'laongtitude'
+2017-09-03 19:36:33,130 [ERROR] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 500 72828
+2017-09-03 19:36:59,889 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/BACHORZEW/leœna/17
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 82, in wyszukaj
+    result = geometria.opisz_punkt_adresowy("POINT ("+str(location.latitude)+" "+str(location.longtitude)+")",
+AttributeError: 'Location' object has no attribute 'longtitude'
+2017-09-03 19:36:59,971 [ERROR] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 500 72817
+2017-09-03 19:37:49,623 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/BACHORZEW/leœna/17
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 82, in wyszukaj
+    result = geometria.opisz_punkt_adresowy("POINT ("+location.latitude+" "+location.longtitude+")",
+TypeError: must be str, not float
+2017-09-03 19:37:49,681 [ERROR] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 500 72601
+2017-09-03 19:38:20,003 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/BACHORZEW/leœna/17
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 82, in wyszukaj
+    result = geometria.opisz_punkt_adresowy("POINT ("+str(location.latitude)+" "+str(location.longtitude)+")",
+AttributeError: 'Location' object has no attribute 'longtitude'
+2017-09-03 19:38:20,054 [ERROR] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 500 72817
+2017-09-03 19:38:58,649 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/BACHORZEW/leœna/17
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 80, in wyszukaj
+    location.latitude=0
+UnboundLocalError: local variable 'location' referenced before assignment
+2017-09-03 19:38:58,700 [ERROR] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 500 72693
+2017-09-03 19:39:11,841 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/BACHORZEW/leœna/17
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 81, in wyszukaj
+    location.latitude=0
+AttributeError: 'list' object has no attribute 'latitude'
+2017-09-03 19:39:11,904 [ERROR] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 500 72751
+2017-09-03 19:39:32,690 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/BACHORZEW/leœna/17
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 86, in wyszukaj
+    result = geometria.opisz_punkt_adresowy("POINT ("+str(location.latitude)+" "+str(location.longtitude)+")",
+AttributeError: 'Location' object has no attribute 'longtitude'
+2017-09-03 19:39:32,757 [ERROR] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 500 72545
+2017-09-03 19:39:51,520 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/BACHORZEW/leœna/17
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 86, in wyszukaj
+    result = geometria.opisz_punkt_adresowy("POINT ("+str(location.latitude)+" "+str(location.longtitude)+")",
+AttributeError: 'Location' object has no attribute 'longtitude'
+2017-09-03 19:39:51,593 [ERROR] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 500 72554
+2017-09-03 19:40:12,287 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/BACHORZEW/leœna/17
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 85, in wyszukaj
+    result = geometria.opisz_punkt_adresowy("POINT ("+str(location.latitude)+" "+str(location.longtitude)+")",
+AttributeError: 'Location' object has no attribute 'longtitude'
+2017-09-03 19:40:12,348 [ERROR] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 500 72527
+2017-09-03 19:40:47,311 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/BACHORZEW/leœna/17
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 98, in wyszukaj
+    'ktorasekcja':result['ktorasekcja'],
+KeyError: 'ktorasekcja'
+2017-09-03 19:40:47,363 [ERROR] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 500 72369
+2017-09-03 19:41:47,600 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/BACHORZEW/leœna/17
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 99, in wyszukaj
+    'wspolrzedne':result['wspolrzedne'],
+KeyError: 'wspolrzedne'
+2017-09-03 19:41:47,653 [ERROR] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 500 72431
+2017-09-03 19:42:56,452 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/BACHORZEW/leœna/17
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 101, in wyszukaj
+    'obszar_do_wyswietlenia': result['obszar_do_wyswietlenia'] })
+KeyError: 'obszar_do_wyswietlenia'
+2017-09-03 19:42:56,508 [ERROR] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 500 72618
+2017-09-03 19:44:30,436 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/BACHORZEW/leœna/17
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 103, in wyszukaj
+    'obszar_do_wyswietlenia': result['obszar_do_wyswietlenia'] })
+KeyError: 'obszar_do_wyswietlenia'
+2017-09-03 19:44:30,487 [ERROR] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 500 72618
+2017-09-03 19:44:46,467 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/BACHORZEW/leœna/17
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 91, in wyszukaj
+    result['obszar_do_wyswietlenia']= result['obszar_do_wyswietlenia']
+KeyError: 'obszar_do_wyswietlenia'
+2017-09-03 19:44:46,518 [ERROR] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 500 72411
+2017-09-03 19:45:01,100 [INFO] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 200 5274
+2017-09-03 19:45:29,817 [INFO] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 200 5274
+2017-09-03 19:46:09,891 [INFO] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 200 5274
+2017-09-03 19:46:50,203 [INFO] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 200 5274
+2017-09-03 19:47:29,601 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/BACHORZEW/leœna/17
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 93, in wyszukaj
+    return render(request, 'wyszukiwarka/wyniki.html', {'form': form,
+UnboundLocalError: local variable 'form' referenced before assignment
+2017-09-03 19:47:30,078 [ERROR] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 500 77066
+2017-09-03 19:47:52,360 [INFO] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 200 565106
+2017-09-03 19:48:22,010 [INFO] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 200 566575
+2017-09-03 19:48:39,961 [INFO] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 200 566575
+2017-09-03 19:49:10,961 [INFO] django.server: "POST /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/ HTTP/1.1" 200 24242
+2017-09-03 19:49:19,826 [INFO] django.server: "POST /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/ HTTP/1.1" 200 24242
+2017-09-03 19:49:57,794 [INFO] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 200 566575
+2017-09-03 19:51:45,509 [INFO] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 200 566574
+2017-09-03 19:55:21,248 [INFO] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 200 566576
+2017-09-03 19:55:41,244 [INFO] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 200 566574
+2017-09-03 19:55:45,644 [INFO] django.server: "GET /wyszukiwarka/ HTTP/1.1" 200 5321
+2017-09-03 19:56:07,370 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 8545
+2017-09-03 19:57:54,654 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 8525
+2017-09-03 19:58:14,039 [INFO] django.server: "POST /wyszukiwarka/ HTTP/1.1" 200 8507
+2017-09-03 19:58:19,789 [INFO] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/Bukowska/120b HTTP/1.1" 200 30083
+2017-09-03 19:58:31,052 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 6969
+2017-09-03 19:58:37,226 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 340722
+2017-09-03 19:58:42,568 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 30113
+2017-09-03 19:58:46,289 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 340714
+2017-09-03 19:58:49,706 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 8511
+2017-09-03 19:59:21,007 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 5461
+2017-09-03 19:59:32,436 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 5456
+2017-09-03 19:59:40,559 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 5458
+2017-09-03 19:59:45,198 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/ HTTP/1.1" 200 5460
+2017-09-03 19:59:55,389 [INFO] django.server: "GET /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/17 HTTP/1.1" 200 566574
+2017-09-03 20:00:22,180 [INFO] django.server: "POST /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/ HTTP/1.1" 200 30051
+2017-09-03 20:00:31,641 [INFO] django.server: "POST /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/ HTTP/1.1" 200 10073
+2017-09-03 20:00:35,627 [INFO] django.server: "POST /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/ HTTP/1.1" 200 20577
+2017-09-03 20:00:48,290 [INFO] django.server: "POST /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/ HTTP/1.1" 200 24256
+2017-09-03 20:00:54,564 [INFO] django.server: "POST /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/ HTTP/1.1" 200 7050
+2017-09-03 20:00:58,995 [INFO] django.server: "POST /wyszukiwarka/link/BACHORZEW/le%C5%9Bna/ HTTP/1.1" 200 5458
+2017-09-03 20:01:22,679 [INFO] django.server: "GET /wyszukiwarka/link/pozna%C5%84/ko%C5%9Bciuszki/120 HTTP/1.1" 200 339912
+2017-09-03 20:01:46,922 [INFO] django.server: "POST /wyszukiwarka/link/pozna%C5%84/ko%C5%9Bciuszki/ HTTP/1.1" 200 5458
+2017-09-03 20:01:54,094 [INFO] django.server: "POST /wyszukiwarka/link/pozna%C5%84/ko%C5%9Bciuszki/ HTTP/1.1" 200 24256
+2017-09-03 20:02:12,225 [INFO] django.server: "POST /wyszukiwarka/link/pozna%C5%84/ko%C5%9Bciuszki/ HTTP/1.1" 200 24256
+2017-09-03 20:02:24,923 [INFO] django.server: "POST /wyszukiwarka/link/pozna%C5%84/ko%C5%9Bciuszki/ HTTP/1.1" 200 5458
+2017-09-03 20:02:29,454 [INFO] django.server: "POST /wyszukiwarka/link/pozna%C5%84/ko%C5%9Bciuszki/ HTTP/1.1" 200 5458
+2017-09-03 20:02:41,728 [INFO] django.server: "POST /wyszukiwarka/link/pozna%C5%84/ko%C5%9Bciuszki/ HTTP/1.1" 200 8410
+2017-09-03 20:02:45,940 [INFO] django.server: "POST /wyszukiwarka/link/pozna%C5%84/ko%C5%9Bciuszki/ HTTP/1.1" 200 10554
+2017-09-03 20:02:51,003 [INFO] django.server: "POST /wyszukiwarka/link/pozna%C5%84/ko%C5%9Bciuszki/ HTTP/1.1" 200 10560
+2017-09-03 20:02:56,586 [INFO] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/Bukowska/24 HTTP/1.1" 200 30077
+2017-09-03 20:03:01,062 [INFO] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/Bukowska/25 HTTP/1.1" 200 340684
+2017-09-03 20:03:06,379 [INFO] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/Bukowska/23 HTTP/1.1" 200 32927
+2017-09-03 20:03:25,758 [INFO] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/Bukowska/24 HTTP/1.1" 200 30077
+2017-09-03 20:03:40,531 [INFO] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/Bukowska/20 HTTP/1.1" 200 30075
+2017-09-03 20:03:55,131 [INFO] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/Bukowska/19/ HTTP/1.1" 200 339927
+2017-09-03 20:05:34,654 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/gdañsk/bohaterow/1
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 96, in wyszukaj
+    'ktorasekcja': result['ktorasekcja'],
+KeyError: 'ktorasekcja'
+2017-09-03 20:05:34,711 [ERROR] django.server: "GET /wyszukiwarka/link/gda%C5%84sk/bohaterow/1 HTTP/1.1" 500 72662
+2017-09-03 20:05:51,420 [ERROR] django.request: Internal Server Error: /wyszukiwarka/link/katowice/bohaterow/1
+Traceback (most recent call last):
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "B:\workspace\python\mipa3632\django\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "B:\workspace\python\mipa3632\geopip\wyszukiwarka\views.py", line 96, in wyszukaj
+    'ktorasekcja': result['ktorasekcja'],
+KeyError: 'ktorasekcja'
+2017-09-03 20:05:51,468 [ERROR] django.server: "GET /wyszukiwarka/link/katowice/bohaterow/1 HTTP/1.1" 500 72626
+2017-09-03 20:06:49,203 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/19/ HTTP/1.1" 200 33188
+2017-09-03 20:06:58,148 [INFO] django.server: "GET /wyszukiwarka/link/Murowana%20Go%C5%9Blina/Polna/12 HTTP/1.1" 200 392684
+2017-09-03 20:08:22,748 [INFO] django.server: "GET /wyszukiwarka/link/Murowana%20Go%C5%9Blina/Polna/17 HTTP/1.1" 200 392684
+2017-09-03 20:08:56,052 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/19/ HTTP/1.1" 200 9606
+2017-09-03 20:09:05,069 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/19/ HTTP/1.1" 200 7092
+2017-09-03 20:09:10,767 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Bukowska/19/ HTTP/1.1" 200 7190
+2017-09-03 20:09:18,464 [INFO] django.server: "GET /wyszukiwarka/link/Murowana%20Go%C5%9Blina/Polna/19 HTTP/1.1" 200 392680
+2017-09-03 20:09:25,796 [INFO] django.server: "GET /wyszukiwarka/link/Murowana%20Go%C5%9Blina/Polna/9 HTTP/1.1" 200 393434
+2017-09-03 20:11:06,535 [INFO] django.server: "POST /wyszukiwarka/link/Murowana%20Go%C5%9Blina/Polna/ HTTP/1.1" 200 24242
+2017-09-03 20:14:47,646 [INFO] django.server: "POST /wyszukiwarka/link/Murowana%20Go%C5%9Blina/Polna/ HTTP/1.1" 200 24242
+2017-09-03 20:14:53,735 [WARNING] django.request: Not Found: /wyszukiwarka/
+2017-09-03 20:14:53,736 [WARNING] django.server: "GET /wyszukiwarka/ HTTP/1.1" 404 2464
+2017-09-03 20:15:00,498 [WARNING] django.request: Not Found: /wyszukiwarka/link
+2017-09-03 20:15:00,499 [WARNING] django.server: "GET /wyszukiwarka/link HTTP/1.1" 404 2476
+2017-09-03 20:15:05,235 [INFO] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/Marcin/46/ HTTP/1.1" 200 24203
+2017-09-03 20:15:14,524 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Marcin/46/ HTTP/1.1" 200 6966
+2017-09-04 07:48:58,813 [WARNING] django.request: Not Found: /wyszukiwarka/
+2017-09-04 07:48:58,814 [WARNING] django.server: "GET /wyszukiwarka/ HTTP/1.1" 404 2464
+2017-09-04 07:48:59,201 [WARNING] django.request: Not Found: /favicon.ico
+2017-09-04 07:48:59,201 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 2076
+2017-09-04 07:49:06,822 [WARNING] django.request: Not Found: /wyszukiwarka/link
+2017-09-04 07:49:06,823 [WARNING] django.server: "GET /wyszukiwarka/link HTTP/1.1" 404 2476
+2017-09-04 07:49:13,293 [INFO] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/Marcin/46/ HTTP/1.1" 200 24203
+2017-09-04 09:20:28,762 [WARNING] django.request: Not Found: /wyszukiwarka/
+2017-09-04 09:20:28,763 [WARNING] django.server: "GET /wyszukiwarka/ HTTP/1.1" 404 2464
+2017-09-04 09:20:28,992 [WARNING] django.request: Not Found: /favicon.ico
+2017-09-04 09:20:28,993 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 2076
+2017-09-04 09:20:34,791 [INFO] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/Marcin/46/ HTTP/1.1" 200 24203
+2017-09-04 09:20:37,501 [INFO] django.server: "GET /wyszukiwarka/navi/ HTTP/1.1" 200 4004
+2017-09-04 09:20:41,493 [WARNING] django.request: Not Found: /wyszukiwarka/
+2017-09-04 09:20:41,494 [WARNING] django.server: "GET /wyszukiwarka/ HTTP/1.1" 404 2464
+2017-09-04 09:20:48,205 [INFO] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/Marcin/46/ HTTP/1.1" 200 24203
+2017-09-04 09:20:54,516 [INFO] django.server: "POST /wyszukiwarka/link/Pozna%C5%84/Marcin/46/ HTTP/1.1" 200 87330
+2017-09-04 09:21:00,829 [INFO] django.server: "GET /wyszukiwarka/link/Pozna%C5%84/Floriana%20Marciniaka/19 HTTP/1.1" 200 340728
